@@ -1,0 +1,10 @@
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.81
+langchain-groq==0.3.8
+langchain-huggingface==0.3.1
+faiss-cpu
+PyPDF2==3.0.1
+streamlit==1.50.0
+python-dotenv==1.2.1
+sentence-transformers==5.1.2

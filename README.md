@@ -137,5 +137,3 @@ pdf-analyzer/
 - User authentication and document management
 
 ---
-
-**Built with ❤️ using LangChain, FAISS, and Streamlit** 

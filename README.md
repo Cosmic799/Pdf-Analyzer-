@@ -2,7 +2,7 @@
 
 A **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and ask questions about their content using natural language. Built with LangChain, FAISS, and Streamlit, this tool demonstrates a complete end-to-end RAG pipeline for document Q&A.
 
-## 🎯 Project Overview
+## Project Overview
 
 This application implements a production-ready RAG system that:
 - Extracts text from PDF documents
@@ -12,7 +12,7 @@ This application implements a production-ready RAG system that:
 
 **Perfect for:** Document analysis, research assistance, knowledge base Q&A, and demonstrating RAG architecture in interviews.
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ### Core Technologies
 - **LangChain**: Orchestrates the RAG pipeline (text splitting, embeddings, retrieval, QA chain)
@@ -38,7 +38,7 @@ PDF Upload → Text Extraction → Chunking (with overlap) → Embedding Generat
 6. **Retrieval**: Most relevant chunks are retrieved based on semantic similarity
 7. **Generation**: LangChain's RetrievalQA chain uses retrieved context + LLM to generate answers
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -86,7 +86,7 @@ pdf-analyzer/
 └── README.md          # This file
 ```
 
-## ✨ Key Features
+## Key Features
 
 - **Multi-PDF Support**: Upload and query multiple PDFs simultaneously
 - **Semantic Search**: Uses vector embeddings for contextually relevant retrieval
@@ -119,7 +119,7 @@ pdf-analyzer/
 3. Click "Submit" to process
 4. View the AI-generated answer based on your PDF content
 
-## 🎓 Interview Talking Points
+## Interview Talking Points
 
 - **RAG Pipeline**: Demonstrates understanding of retrieval-augmented generation
 - **Vector Databases**: Experience with FAISS and semantic search
@@ -127,7 +127,7 @@ pdf-analyzer/
 - **End-to-End Development**: Full-stack implementation from PDF parsing to answer generation
 - **Production Considerations**: Error handling, API key management, temp file cleanup
 
-## 🔮 Potential Enhancements
+## Potential Enhancements
 
 - Support for additional file formats (DOCX, TXT, etc.)
 - Persistent vector store (save/load FAISS indexes)

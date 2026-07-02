@@ -1,4 +1,4 @@
-# PDF Analyzer - RAG Application
+# PDF Analyzer 
 
 A **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and ask questions about their content using natural language. Built with LangChain, FAISS, and Streamlit, this tool demonstrates a complete end-to-end RAG pipeline for document Q&A.
 
